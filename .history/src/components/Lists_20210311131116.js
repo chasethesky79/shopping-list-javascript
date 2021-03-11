@@ -1,0 +1,1 @@
+const Lists = ({ data, loading, error, match, history })

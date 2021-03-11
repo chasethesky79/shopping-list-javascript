@@ -1,5 +1,5 @@
+import logo from './logo.svg';
 import './App.css';
-import ListsContextProvider from '../src/Context/ListsContextProvider';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
             <HeaderWrapper/>
             <ListsContextProvider>
                 <Switch>
-                    <Route exact path='/' render={props => <Lists {...props}/>}/>
+                    {/* <Route exact path='/' component={Lists}/> */}
                 </Switch>
             </ListsContextProvider>
         </div>

@@ -8,7 +8,7 @@ function App() {
             <HeaderWrapper/>
             <ListsContextProvider>
                 <Switch>
-                    <Route exact path='/' render={props => <Lists {...props}/>}/>
+                    {/* <Route exact path='/' component={Lists}/> */}
                 </Switch>
             </ListsContextProvider>
         </div>
